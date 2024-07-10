@@ -31,11 +31,11 @@ public class Calculator {
 	
 	public void add()
 	{
-		int a,b;
+		float a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers to add");
-		a=sc.nextInt();
-		b=sc.nextInt();
+		a=sc.nextFloat();
+		b=sc.nextFloat();
 		System.out.println("Result= "+(a+b));
 		
 	}
@@ -43,33 +43,42 @@ public class Calculator {
 
 	public void sub()
 	{
-		int a,b;
+		float a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers to subtract");
-		a=sc.nextInt();
-		b=sc.nextInt();
+		a=sc.nextFloat();
+		b=sc.nextFloat();
 		System.out.println("Result= "+(a-b));
 		
 	}
 	
 	public void mult()
 	{
-		int a,b;
+		float a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers to multiply");
-		a=sc.nextInt();
-		b=sc.nextInt();
+		a=sc.nextFloat();
+		b=sc.nextFloat();
 		System.out.println("Result= "+(a*b));
 		
 	}
 	public void div()
 	{
-		int a,b;
+		float a,b;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter two numbers to Division");
-		a=sc.nextInt();
-		b=sc.nextInt();
+		a=sc.nextFloat();
+		b=sc.nextFloat();
 		System.out.println("Result= "+(a/b));
 		
 	}
 }
+
+
+
+
+
+
+	
+	
+	
